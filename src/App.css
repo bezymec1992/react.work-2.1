@@ -1,0 +1,75 @@
+.wrapper {
+  border: 1px solid black;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 20px;
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+  color: rgb(87, 87, 236);
+  font-size: 50px;
+  transform: translate(to);
+}
+
+
+li {
+    list-style: none;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: yellow;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+}
+ul {
+  max-width: 300px;
+  margin: 100px auto;
+  padding-left: 0;
+  transition: all 0.5s;
+  
+}
+.input-wrap {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.input-wrap input {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  
+}
+
+.input-wrap button {
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 30px;
+  
+}
+
+.make-done {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+}
+
+.done {
+  background-color: green;
+}
+
+/* .net {
+  background-color: tan;
+} */
